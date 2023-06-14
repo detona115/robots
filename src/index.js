@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './container/App';
+// import Card from './Card';
+// import CardList from './CardList';
 import reportWebVitals from './reportWebVitals';
+import 'tachyons';
+// import { robots } from './robots';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    {/* <CardList robots={robots}/> */}
+    {/* <Card id={robots[0].id} name={robots[0].name} email={robots[0].email}/> */}
     <App />
   </React.StrictMode>
 );
